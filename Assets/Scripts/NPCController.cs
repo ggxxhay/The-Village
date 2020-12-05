@@ -58,14 +58,12 @@ public class NPCController : MonoBehaviour
 
     IEnumerator Coroutine_SetWayPoints()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitUntil(() => TimeManager.currentTime.Hour == 6 && TimeManager.currentTime.Minute == 10);
 
         currentWaypointIndex = 0;
         Waypoints_Current = Waypoints_Morning;
 
-        yield return new WaitForSeconds(1f);
-        yield return new WaitUntil(() => !animator.GetBool("isMoving"));
-        yield return new WaitForSeconds(3f);
+        yield return new WaitUntil(() => TimeManager.currentTime.Hour == 6 && TimeManager.currentTime.Minute == 50);
 
         currentWaypointIndex = 0;
         Waypoints_Current = Waypoints_Afternoon;
