@@ -58921,6 +58921,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1005212643013792346, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
+      propertyPath: Waypoints_Morning.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1005212643013792346, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
+      propertyPath: Waypoints_Afternoon.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1005212643013792346, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
       propertyPath: Waypoints.Array.data[0]
       value: 
       objectReference: {fileID: 768492128}
@@ -58932,6 +58940,38 @@ PrefabInstance:
       propertyPath: Waypoints.Array.data[2]
       value: 
       objectReference: {fileID: 1795744149}
+    - target: {fileID: 1005212643013792346, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
+      propertyPath: Waypoints_Morning.Array.data[0]
+      value: 
+      objectReference: {fileID: 768492128}
+    - target: {fileID: 1005212643013792346, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
+      propertyPath: Waypoints_Morning.Array.data[3]
+      value: 
+      objectReference: {fileID: 1795744149}
+    - target: {fileID: 1005212643013792346, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
+      propertyPath: Waypoints_Morning.Array.data[4]
+      value: 
+      objectReference: {fileID: 1795744149}
+    - target: {fileID: 1005212643013792346, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
+      propertyPath: Waypoints_Morning.Array.data[5]
+      value: 
+      objectReference: {fileID: 1795744149}
+    - target: {fileID: 1005212643013792346, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
+      propertyPath: Waypoints_Morning.Array.data[2]
+      value: 
+      objectReference: {fileID: 1795744149}
+    - target: {fileID: 1005212643013792346, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
+      propertyPath: Waypoints_Morning.Array.data[1]
+      value: 
+      objectReference: {fileID: 2102781242}
+    - target: {fileID: 1005212643013792346, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
+      propertyPath: Waypoints_Afternoon.Array.data[0]
+      value: 
+      objectReference: {fileID: 2102781242}
+    - target: {fileID: 1005212643013792346, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
+      propertyPath: Waypoints_Afternoon.Array.data[1]
+      value: 
+      objectReference: {fileID: 768492128}
     - target: {fileID: 1005212643013792347, guid: 9ba46030de9332b0eb44335f250275a4, type: 3}
       propertyPath: m_Name
       value: NPC
