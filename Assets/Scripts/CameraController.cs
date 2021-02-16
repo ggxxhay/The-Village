@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
@@ -7,10 +8,14 @@ public class CameraController : MonoBehaviour
     public Vector2 MinPosition;
     public Vector2 MaxPosition;
 
+    [NonSerialized]
+    public Vector2 DefaultMinPosition, DefaultMaxPosition;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        DefaultMinPosition = MinPosition;
+        DefaultMaxPosition = MaxPosition;
     }
 
     // Update is called once per frame

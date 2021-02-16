@@ -44,6 +44,9 @@ TagManager:
   - name: Object
     uniqueID: 1032796455
     locked: 0
+  - name: NPC
+    uniqueID: 973291501
+    locked: 0
   - name: Player
     uniqueID: 2424585753
     locked: 0

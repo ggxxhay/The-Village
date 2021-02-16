@@ -28,11 +28,16 @@ public class RoomTransition : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if ((IsMovingUp && Input.GetAxisRaw("Vertical") > 0) ||
-                (!IsMovingUp && Input.GetAxisRaw("Vertical") < 0))
+            if ((IsMovingUp && Input.GetAxisRaw("Vertical") > 0))
             {
                 cameraController.MinPosition = NewMinPosition;
                 cameraController.MaxPosition = NewMaxPosition;
+                PlayerTransform.position = NewPlayerPosition;
+            } 
+            else if (!IsMovingUp && Input.GetAxisRaw("Vertical") < 0)
+            {
+                cameraController.MinPosition = cameraController.DefaultMinPosition;
+                cameraController.MaxPosition = cameraController.DefaultMaxPosition;
                 PlayerTransform.position = NewPlayerPosition;
             }
         }
